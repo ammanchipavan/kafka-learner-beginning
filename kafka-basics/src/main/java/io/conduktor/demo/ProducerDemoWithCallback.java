@@ -14,7 +14,7 @@ public class ProducerDemoWithCallback {
     private static final Logger log = LoggerFactory.getLogger(ProducerDemoWithCallback.class.getSimpleName());
 
     public static void main(String[] args) throws InterruptedException {
-        log.info("Hello World");
+        log.info("Hello World -  Kafka Producer Demo Callback");
 
         //creating Producer Properties
         Properties properties = new Properties();

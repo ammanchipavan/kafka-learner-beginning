@@ -26,7 +26,7 @@ public class ProducerDemo {
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);
 
         //Creating Producer Record
-        ProducerRecord<String, String> producerRecord = new ProducerRecord<>("demo_java", "Hello World, This is Java Producer");
+        ProducerRecord<String, String> producerRecord = new ProducerRecord<>("demo_kafka_java", "Hello World, This is Java Producer");
 
         //Send the data to Kafka (asynchronous)
         producer.send(producerRecord);
